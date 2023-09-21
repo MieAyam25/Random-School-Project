@@ -1,0 +1,726 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+section {
+    position: relative;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    height: 2800px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+/* NAVIGATION */
+
+.img {
+    position: absolute;
+    align-items: center;
+    margin-left: 50px;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    background: #D7874D;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    margin-top: 10px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+nav ul li a {
+    letter-spacing: 2.5px;
+    font-family: 'roxborough cf';
+    display: block;
+    padding: 13px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+nav ul li a:hover {
+    color: #eeeeee;
+}
+
+
+/* tentang kami */
+
+.aboutus {
+    margin-top: 2em;
+    justify-content: center;
+    font-family: 'Integral CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 103px;
+    display: absolute;
+    text-align: center;
+    letter-spacing: 0.40em;
+    color: #D7874D;
+    text-shadow: -5px 9px 8px rgba(215, 135, 77, 0.61);
+}
+
+.tentangkami {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: -530px;
+    font-family: 'Integral CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 84px;
+    display: absolute;
+    letter-spacing: 0.235em;
+    color: #644A37;
+    text-shadow: -5px 8px 8px rgba(0, 0, 0, 0.35);
+}
+
+.line1 {
+    position: absolute;
+    margin-top: 15em;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 0px;
+    border: 4px solid #D7874D;
+}
+
+.isi_tentang_kami {
+    position: absolute;
+    width: 1050px;
+    margin-top: 470px;
+    font-family: 'calibri';
+    font-weight: 600;
+    font-style: bold;
+    font-size: 28px;
+    text-align: justify;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+
+.line2 {
+    position: absolute;
+    width: 90px;
+    height: 0px;
+    margin-top: 415px;
+    margin-right: 960px;
+    border: 7px solid #8C7E74;
+}
+
+
+/* cerita kami */
+
+.cerita_kami {
+    position: absolute;
+    margin-top: 800px;
+    margin-left: -600px;
+    font-family: 'Integral CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 84px;
+    display: absolute;
+    letter-spacing: 0.235em;
+    color: #644A37;
+    text-shadow: -5px 8px 8px rgba(0, 0, 0, 0.35);
+}
+
+.line3 {
+    position: absolute;
+    width: 90px;
+    height: 0px;
+    margin-top: 888px;
+    margin-right: 960px;
+    border: 7px solid #8C7E74;
+}
+
+.gambar {
+    position: absolute;
+    margin-top: 1170px;
+    margin-left: 500px
+}
+
+.isi_cerita1 {
+    position: absolute;
+    width: 1050px;
+    margin-top: 960px;
+    font-family: 'calibri';
+    font-weight: 600;
+    font-style: bold;
+    font-size: 28px;
+    text-align: justify;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+
+.isi_cerita2 {
+    position: absolute;
+    width: 520px;
+    margin-top: 1173px;
+    margin-right: 531px;
+    font-family: 'calibri';
+    font-weight: 600;
+    font-style: bold;
+    text-align: justify;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+
+.isi_cerita3 {
+    position: absolute;
+    width: 1050px;
+    margin-top: 1700px;
+    font-family: 'calibri';
+    font-weight: 600;
+    font-style: bold;
+    font-size: 28px;
+    text-align: justify;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+
+
+/* team kami */
+
+.judul_team {
+    position: absolute;
+    margin-top: 2040px;
+    margin-left: -480px;
+    font-family: 'Integral CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 84px;
+    display: absolute;
+    letter-spacing: 0.235em;
+    color: #644A37;
+    text-shadow: -5px 8px 8px rgba(0, 0, 0, 0.35);
+}
+
+.line4 {
+    position: absolute;
+    width: 90px;
+    height: 0px;
+    margin-top: 2130px;
+    margin-right: 960px;
+    border: 7px solid #8C7E74;
+}
+
+.foto {
+    position: absolute;
+    top: 2214px;
+}
+
+.foto1 {
+    position: absolute;
+    top: 2214px;
+    margin-left: 700px;
+}
+
+.foto2 {
+    position: absolute;
+    top: 2214px;
+    margin-right: 700px;
+}
+
+.nama {
+    margin-top: 2410px;
+    position: absolute;
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.125em;
+    color: #644A37;
+}
+
+.nama1 {
+    margin-right: 700px;
+    margin-top: 2410px;
+    position: absolute;
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.125em;
+    color: #644A37;
+}
+
+.nama2 {
+    margin-left: 700px;
+    margin-top: 2410px;
+    position: absolute;
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.125em;
+    color: #644A37;
+}
+
+.posisi {
+    position: absolute;
+    margin-top: 2470px;
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+
+.posisi1 {
+    position: absolute;
+    margin-top: 2470px;
+    margin-right: 705px;
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+
+.posisi2 {
+    position: absolute;
+    margin-top: 2470px;
+    margin-left: 700px;
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+
+.footer {
+    position: relative;
+    margin-top: 2700px;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #D7874D;
+    color: #eeeeee;
+    display: flex;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    mix-blend-mode: lighten;
+}
+
+
+/* home */
+
+a {
+    text-decoration: none;
+    color: #eeeeee
+}
+
+a:hover {
+    color: #1e1c1c;
+    padding-left: 10px;
+}
+
+.home {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.3em;
+    color: #eeeeee;
+}
+
+.what {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 115px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+.top {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 145px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+.spot {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 175px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+
+/* menu */
+
+.menu {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.3em;
+    color: #eeeeee;
+}
+
+.perkopian {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 115px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+.makanan {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 145px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+.minuman {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 175px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+.snack {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 205px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+
+/* about us */
+
+.bout {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.3em;
+    color: #eeeeee;
+}
+
+.kami {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 115px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+.story {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 145px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+.team {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 175px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+
+/* kontak0 */
+
+.contact {
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.3em;
+    color: #eeeeee;
+}
+
+.store {
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 115px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+.jejaring {
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 145px;
+    font-weight: 300;
+    font-style: thin;
+    font-size: 15px;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25em;
+    color: #eeeeee;
+}
+
+.copyright {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #eeeeee;
+}
+
+
+/* media sosial */
+
+.sosial {
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 200px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    right: 0;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 46px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #EEEEEE;
+}
+
+.line5 {
+    position: absolute;
+    margin-right: 250px;
+    margin-top: 100px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 0px;
+    border: 3px solid #eeeeee;
+}
+
+.twiter {
+    width: 60px;
+    height: 80px;
+    right: 0;
+    margin-right: 113px;
+    margin-top: 140px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ig {
+    width: 70px;
+    height: 80px;
+    right: 0;
+    margin-right: 218px;
+    margin-top: 140px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fb {
+    width: 65px;
+    height: 75px;
+    right: 0;
+    margin-right: 330px;
+    margin-top: 142px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mail {
+    width: 65px;
+    height: 75px;
+    right: 0;
+    margin-right: 445px;
+    margin-top: 143px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+a,
+a:after,
+a:before {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
